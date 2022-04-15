@@ -29,4 +29,41 @@ ul {
     "search-bar user-info"
     "greeting nav";
     box-shadow: 0 5px 5px #e2e8f0;
+    z-index: 1;
 }
+
+.searchbar {
+    grid-area: searchbar;
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchbar>img {
+    justify-self: end;
+    margin-right: 10px;
+}
+
+.searchbar>input {
+    background-color: #f1f5f9;
+    border: none;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    padding-left: 20px;
+    height: 35px;
+    width: 700px;
+    color: #112644;
+}
+
+.user-info {
+    grid-area: user-info;
+    display: grid;
+    grid-template-columns: 1fr 0.8fr 2fr;
+    align-items: center;
+}
+
+.user-info>#bell {
+    justify-self: end;
+}
+
