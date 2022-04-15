@@ -152,3 +152,49 @@ ul {
     top: 4px;
     margin-right: 10px;
 }
+
+.main {
+    grid-area: main;
+    background-color: #f1f5f9;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    padding: 20px;
+}
+
+.projects,
+.news {
+    padding: 10px;
+}
+
+.projects>h2,
+.announcements>h2,
+.trending>h2 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.card {
+    border-left: 10px solid #22349e;
+    border-radius: 10px;
+    background-color: #ffffff;
+    height: 158px;
+    padding: 20px;
+    display: grid;
+    grid-template-rows: 4fr 1fr;
+}
+
+.project-buttons>ul {
+    display: flex;
+    justify-content: end;
+}
+
+.project-buttons>ul>li {
+    padding: 10px;
+}
