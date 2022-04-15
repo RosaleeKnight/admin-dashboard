@@ -198,3 +198,51 @@ ul {
 .project-buttons>ul>li {
     padding: 10px;
 }
+
+.announcement-cards {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px 30px;
+    margin-bottom: 40px;
+}
+
+.announcement-cards>div {
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 20px;
+}
+
+.announcement-cards:nth-child(3){
+    border: none;
+    margin-bottom: 0px;
+}
+
+.announcement-cards>div>p{
+    font-size: 0.7rem;
+    margin-bottom: 10px;
+}
+
+.trending-cards {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-bottom: 40px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.trending-profile {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    padding: 5px;
+    align-items: center;
+}
+
+.trending-profile>.text {
+    padding: 10px;
+    font-size: 0.9rem;
+}
+
+.project-name {
+    color: #9ca3af;
+}
