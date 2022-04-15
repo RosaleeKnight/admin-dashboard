@@ -32,20 +32,20 @@ ul {
     z-index: 1;
 }
 
-.searchbar {
-    grid-area: searchbar;
+.search-bar {
+    grid-area: search-bar;
     display: grid;
     grid-template-columns: 1fr 8fr;
     justify-content: center;
     align-items: center;
 }
 
-.searchbar>img {
+.search-bar>img {
     justify-self: end;
     margin-right: 10px;
 }
 
-.searchbar>input {
+.search-bar>input {
     background-color: #f1f5f9;
     border: none;
     border-radius: 20px;
@@ -101,4 +101,25 @@ ul {
 
 #user-greeting>h3 {
     font-size: 1.8rem;
+}
+
+.nav {
+    grid-area: nav;
+    display: grid;
+    align-items: center;
+}
+
+.nav>ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav>ul>li>button {
+    border: none;
+    background-color: #5c6ed4;
+    border-radius: 25px;
+    padding: 8px 30px;
+    font-size: 1.1 rem;
+    color: #ffffff;
+    margin-right: 30px;
 }
