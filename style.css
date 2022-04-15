@@ -123,3 +123,32 @@ ul {
     color: #ffffff;
     margin-right: 30px;
 }
+
+.sidebar {
+    z-index: 2;
+    grid-area: sidebar;
+    background-color: #5c6ed4;
+    color:#ffffff
+}
+
+.sidebar>div {
+    padding-left: 40px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.sidebar>div>ul {
+    list-style-type: none;
+}
+
+.sidebar>div>ul>li {
+    list-style-type: none;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+}
+
+.sidebar>div>ul>li>img {
+    position: relative;
+    top: 4px;
+    margin-right: 10px;
+}
